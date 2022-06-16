@@ -1,6 +1,7 @@
 import React from "react";
 import BasicTable from "./components/BasicTable";
 import FilteringTable from "./components/FilteringTable";
+import PaginationTable from "./components/PaginationTable";
 import SortingTable from "./components/SortingTable";
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <>
       {/* <BasicTable /> */}
       {/* <SortingTable /> */}
-      <FilteringTable />
+      {/* <FilteringTable /> */}
+      <PaginationTable />
     </>
   );
 };
